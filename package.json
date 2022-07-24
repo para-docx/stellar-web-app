@@ -23,5 +23,17 @@
   "devDependencies": {
     "eslint": "8.20.0",
     "eslint-config-next": "12.2.2"
-  }
+  },
+  "description": "This web app is made for the summer training project for my college",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/para-docx/stellar-web-app.git"
+  },
+  "author": "para",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/para-docx/stellar-web-app/issues"
+  },
+  "homepage": "https://github.com/para-docx/stellar-web-app#readme"
 }

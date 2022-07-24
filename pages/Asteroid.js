@@ -50,17 +50,13 @@ export default function App() {
 				</h1> </center>
 				</div>
 				<hr></hr>	
-
+                 
 				{results
 					.sort((a) => (a.is_potentially_hazardous_asteroid ? -1 : 1))
 					.map((data) => (
-						<div className="d-flex justify-content-around">
-							<div className="text-bg-primary p-3 border-dark mb-3 text-center rounded-4">
-								<Orbital key={data.id} {...data} />
-							</div>
-						</div>
+								<Orbital key={data.id} {...data}> </Orbital> 
 					))}
-			
+		
 			<footer> 
                 <Link href="/#" >
             <a className="btn btn-dark btn-lg " role="button" aria-pressed="true"> Back Home </a>
