@@ -19,7 +19,7 @@ export default function Home() {
           Welcome to Stellar web app
         </h1>
         <h3 className={styles.description}>
-        <div class="d-grid d-md-flex justify-content-md-center ">
+        <div className="d-grid d-md-flex justify-content-md-center ">
           <ul className={styles.ul}>
             <li>
               <Link href="/SearchNasa">

@@ -26,7 +26,7 @@ export default function Searchnasa(props) {
             </div>
             <footer> 
                 <Link href="/#" >
-            <a class="btn btn-dark btn-lg " role="button" aria-pressed="true"> Back Home </a>
+            <a className="btn btn-dark btn-lg " role="button" aria-pressed="true"> Back Home </a>
             </Link>
             </footer>
         </div>
