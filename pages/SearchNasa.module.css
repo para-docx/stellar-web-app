@@ -1,0 +1,39 @@
+.background{
+  background-image: url("../public/images2.jpg");
+  background-color:#383961 ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px;
+  }
+
+
+  .content {
+    padding-bottom: 80px;
+    text-align: center;
+    color: white;
+    
+  }
+
+  .main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .img {
+    max-width: 400px;
+  }
+  
+  .spacer {
+    height: 40px;
+  }

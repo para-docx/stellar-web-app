@@ -1,0 +1,21 @@
+.main{
+	background-color: #033860;
+    color: white;
+	font-family: 'BebasNeue';
+    font-weight: 100;
+    font-style: normal;
+    src: url('../fonts/BebasNeue Thin.otf') format('opentype');
+}
+
+.top{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow: auto;
+    padding-left: 190px;
+}
+.images{
+    padding-top: 20px;
+    padding-right: 20px;
+}

@@ -1,0 +1,24 @@
+.main{
+  background-image: url("../public/apod.jpeg");
+  height: 100vh;
+  Width: 900;
+  padding: 30;
+}
+.title{
+    font-size: 30;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: 'BebasNeue';
+    font-style: normal;
+    src: url('../fonts/BebasNeue Book.otf') format('opentype');
+}
+.apodname{
+    text-align: center;
+    color: linen;
+}
+
+.container{
+    text-align: center;
+    color: #fffacd;
+}

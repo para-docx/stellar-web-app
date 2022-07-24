@@ -1,0 +1,17 @@
+.figure {
+    max-width: 400px;
+    margin: 10px;
+    color: linen;
+    text-shadow: 0 0 3px;
+    font-size: 1em;
+  }
+
+  .img{
+    max-width: 400px;
+  }
+
+  .title{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+  }
