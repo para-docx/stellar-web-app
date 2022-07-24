@@ -12,6 +12,7 @@
 /.next/
 /out/
 
+nasa.json
 # production
 /build
 
