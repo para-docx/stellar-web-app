@@ -54,13 +54,8 @@ export default function App() {
 				{results
 					.sort((a) => (a.is_potentially_hazardous_asteroid ? -1 : 1))
 					.map((data) => (
-<<<<<<< HEAD
-								<Orbital key={data.id} {...data}> </Orbital> 
-=======
-					
-								<Orbital key={data.id} {...data} />
+								<Orbital key={data.id} {...data}> </Orbital>
 
->>>>>>> 32870e1e10ab63b11aa997f75ac3452fedc5a237
 					))}
 		
 			<footer> 
