@@ -54,11 +54,9 @@ export default function App() {
 				{results
 					.sort((a) => (a.is_potentially_hazardous_asteroid ? -1 : 1))
 					.map((data) => (
-						<div className="d-flex justify-content-around">
-							<div className="text-bg-primary p-3 border-dark mb-3 text-center rounded-4">
+					
 								<Orbital key={data.id} {...data} />
-							</div>
-						</div>
+
 					))}
 			
 			<footer> 
