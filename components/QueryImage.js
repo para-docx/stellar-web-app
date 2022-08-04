@@ -1,10 +1,8 @@
 import styles from './QueryImage.module.css'
 import { useState, useEffect } from 'react'
-import BuiltImage from '/components/BuiltImage'
 
 export function useQuery(passed) {
   let [planet, setPlanet] = useState(passed)
-
 
   useEffect(() => {
     let current = true
@@ -42,9 +40,14 @@ export default function QueryImage() {
   return (
     <div className={styles.query}>
       <input type="text" value={query} onChange={(e) => setQuery(e.target.value)} />
-      {image && <BuiltImage image={image?.href} info={info} />}
+      <div role="figure" aria-labelledby="caption" className={styles.figure}>
+            {image && <img src={image.href} alt={info.title} className={styles.img} />}
+            <p>
+                <strong className={styles.title}>{info?.title}:</strong> 
+              <div className={styles.discribe}>{info?.description} </div>
+            </p>
+    </div>        
     </div>
 
   )
-
 }

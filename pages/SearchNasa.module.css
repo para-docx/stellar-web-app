@@ -1,39 +1,28 @@
-.background{
-  background-image: url("../public/images2.jpg");
-  background-color:#383961 ;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
+.background {
+  background: radial-gradient(
+    circle at -8.9% 51.2%,
+    rgb(255, 124, 0) 0%,
+    rgb(255, 124, 0) 15.9%,
+    rgb(255, 163, 77) 15.9%,
+    rgb(255, 163, 77) 24.4%,
+    rgb(19, 30, 37) 24.5%,
+    rgb(19, 30, 37) 66%
+  );
 }
-
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  text-shadow: 2px 2px;
-  }
+  color: white;
+}
 
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .content {
-    padding-bottom: 80px;
-    text-align: center;
-    color: white;
-    
-  }
-
-  .main {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-  }
-
-  .img {
-    max-width: 400px;
-  }
-  
-  .spacer {
-    height: 40px;
-  }
+.footer {
+  position: fixed;
+  bottom: 0;
+}
