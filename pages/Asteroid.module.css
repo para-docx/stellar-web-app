@@ -9,7 +9,8 @@
     justify-content: center;
     align-items: center;
     flex-grow: auto;
-    padding-left: 190px;font-family: 'BebasNeue';
+    padding-left: 190px;
+    font-family: 'BebasNeue';
     font-weight: 100;
     font-style: normal;
     src: url('../fonts/BebasNeue Book.otf') format('opentype');

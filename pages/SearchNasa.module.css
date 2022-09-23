@@ -1,21 +1,38 @@
-
-.container {
-  display: flex;
-  flex-direction: column;
+.header{
   align-items: center;
-<<<<<<< HEAD
-
-=======
->>>>>>> 69cba7b8498d9ebe5f663704d2db7e36aec4c241
+  justify-content: center;
+}
+ 
+.searchbar {
+  box-sizing: border-box;
+  border: 2px solid ;
 }
 
-.main {
-  display: flex;
+.main{
   flex-direction: column;
+  display: inline-flex;
+  padding-left: 450px;
   align-items: center;
+  justify-content: center;
 }
 
-.footer {
-  position: fixed;
-  bottom: 0;
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
 }
+
+.data{
+  max-width: 600px;
+  max-height: 100px;
+  overflow: auto;
+}
+
+.img{
+  padding-top: 5px;
+  max-height: 500px;
+}
+
+ .footer {
+    position: fixed;
+    bottom: 0;
+  }
