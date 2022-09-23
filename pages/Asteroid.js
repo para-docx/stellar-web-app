@@ -43,7 +43,7 @@ export default function App() {
 		<div className={styles.container}>
 			<div className={styles.main}>
 		<div className={styles.top}>	
-		   <img src="/nasa.png" alt="..." className={styles.images}></img>			
+		   <img src="/nasa_1.png" alt="..." className={styles.images}></img>			
 				<center> <h1>
 					{format(addDays(new Date(), 1), 'EEEE d-MMM')} there will be {' '}
 					<strong>{results.length}</strong> near misses
@@ -58,7 +58,7 @@ export default function App() {
 
 					))}
 		
-			<footer> 
+			<footer className={styles.footer}> 
                 <Link href="/#" >
             <a className="btn btn-dark btn-lg " role="button" aria-pressed="true"> Back Home </a>
             </Link>

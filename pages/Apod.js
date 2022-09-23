@@ -26,7 +26,7 @@ export default function Apod() {
         <div className={styles.spacer}> 
         <p>{apod.explanation}</p> </div>
       </article>)}
-      <footer> 
+      <footer className={styles.footer}> 
             <Link href="/#" >
             <a className="btn btn-dark btn-lg " role="button" aria-pressed="true"> Back Home </a>
             </Link>

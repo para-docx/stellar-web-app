@@ -5,7 +5,6 @@ export default function Orbital({
 	name,
 	is_potentially_hazardous_asteroid,
 	close_approach_data,
-	nasa_jpl_url,
 }) {
 	return (
 		<div className="d-flex justify-content-around">

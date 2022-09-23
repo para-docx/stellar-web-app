@@ -1,5 +1,4 @@
 
-
 const YesNo = new Map([
 	[true, 'YES'],
 	[false, 'NO'],
