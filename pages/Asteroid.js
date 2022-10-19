@@ -20,8 +20,7 @@ export default function App() {
 	const data = useAsync(fetchData, []);
 
 	if (data.loading) {
-		// document.title = 'Counting potential earth HAZARDS…';
-
+		
 		return (
 			<p>
 				Getting data from NASA API...
