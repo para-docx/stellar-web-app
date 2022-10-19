@@ -54,7 +54,6 @@ export default function App() {
 					.sort((a) => (a.is_potentially_hazardous_asteroid ? -1 : 1))
 					.map((data) => (
 								<Orbital key={data.id} {...data}> </Orbital>
-
 					))}
 		
 			<footer className={styles.footer}> 
