@@ -43,7 +43,7 @@ export default function Home() {
 
 
       <footer className={styles.footer}>
-        A website made from nasa api by Dhruv
+        Made with ❤️ by Dhruv Kumar
       </footer>
 
     </div>
