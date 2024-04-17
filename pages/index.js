@@ -43,7 +43,7 @@ export default function Home() {
 
 
       <footer className={styles.footer}>
-        Made with ❤️ by Dhruv Kumar
+        Made with ❤️ by Dhruv
       </footer>
 
     </div>
